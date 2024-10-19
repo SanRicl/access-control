@@ -1,0 +1,25 @@
+{
+  "name": "@marketlinker/prisma-db",
+  "version": "1.0.4",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "generate": "prisma generate",
+    "postinstall": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist",
+    "node_modules",
+    "prisma"
+  ],
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "prisma": "^5.20.0",
+    "typescript": "^5.6.2"
+  }
+}
